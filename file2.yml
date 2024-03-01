@@ -1,1 +1,8 @@
-
+---
+- hosts: splunk-enterprise
+  tasks: 
+  - name: Download Splunk software package
+    get_url:
+      url: https://download.splunk.com/products/splunk/releases/9.1.3/linux/splunk-9.1.3-d95b3299fa65.x86_64.rpm
+      dest: /opt
+      mode: '0644'
