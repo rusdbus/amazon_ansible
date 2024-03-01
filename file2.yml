@@ -1,5 +1,5 @@
 ---
-- hosts: splunk-enterprise
+- hosts: splunk-server
   tasks: 
   - name: Create a file
     file:
