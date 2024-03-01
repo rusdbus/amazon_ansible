@@ -3,7 +3,7 @@
   tasks: 
   - name: Create a file
     file:
-      path: /home/ec2-user
+      path: /home/ec2-user/class.txt
       state: touch
 
   
